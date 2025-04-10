@@ -6,7 +6,7 @@ def slice_advanced():
 
         texto = input("Colocar palabra: \n").lower()
         primeras_3 = texto[:3]
-        las_del_medio = texto[2:5]
+        las_del_medio = texto[3:6]
         las4primera = texto[0:4] 
         laantepenultima = texto[-3:]
         lasultimas_letras = las4primera + laantepenultima
