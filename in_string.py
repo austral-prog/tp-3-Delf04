@@ -14,8 +14,8 @@ def check_vowels():
     vocal_o = "o"  in nombre_minus
     vocal_u = "u"  in nombre_minus
 
-    print(vocal_a)
-    print(vocal_e)
-    print(vocal_i)
-    print(vocal_o)
-    print(vocal_u)
+    print(f"Contiene a: {vocal_a}")
+    print(f"Contiene e: {vocal_e}")
+    print(f"Contiene i: {vocal_i}")
+    print(f"Contiene o: {vocal_o}")
+    print(f"Contiene u: {vocal_u}")
