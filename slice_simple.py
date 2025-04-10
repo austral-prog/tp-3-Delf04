@@ -8,7 +8,7 @@ def slice_simple():
 # `pytest tp3_slice_simple_test.py` o `python tp3_slice_simple_test.py`
     
     primeras_3 = texto[:3]
-    las_del_medio = texto[3:5]
+    las_del_medio = texto[2:5]
     las4primera = texto[0:4] 
     laantepenultima = texto[-3:]
     lasultimas_letras = las4primera + laantepenultima
