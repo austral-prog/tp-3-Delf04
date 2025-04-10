@@ -7,7 +7,7 @@ def slice_simple():
 # Para verificar este ejercicio ejecutar el comando
 # `pytest tp3_slice_simple_test.py` o `python tp3_slice_simple_test.py`
 
-        texto = input("Colocar palabra: \n").lower()
+        textolower = texto.lower()
         primeras_3 = texto[:3]
         las_del_medio = texto[3:6]
         las4primera = texto[0:4] 
