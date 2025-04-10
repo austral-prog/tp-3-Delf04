@@ -5,7 +5,7 @@ def check_vowels():
 # Para verificar este ejercicio ejecutar el comando
 # `pytest tp3_in_string_test.py` o `python tp3_in_string_test.py`
 
-    nombre = input("Poner Nombre \n>")
+    nombre = input("Poner Nombre \n> ")
     nombre_minus = nombre.lower()
     
     vocal_a = "a"  in nombre_minus
